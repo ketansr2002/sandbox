@@ -43,3 +43,20 @@ ReactDOM.render(
   </div>,
   document.getElementById("demo4")
 );
+
+//inline css can be applied using js documents ,here attriutes will be written in camelcase not with hiphen in between
+ReactDOM.render(
+  <h1
+    style={{ color: "red" }}
+    className="editable"
+    contentEditable="true"
+    spellCheck="false"
+  >
+    this is an editable code
+  </h1>,
+  document.getElementById("demo3")
+);
+
+/***************************************************** */
+
+
