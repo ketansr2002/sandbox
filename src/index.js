@@ -36,10 +36,11 @@ ReactDOM.render(
 );
 
 //add images and apply some css
+const img = "https://picsum.photos/200";
 ReactDOM.render(
   <div>
-    <img src="https://images.easytechjunkie.com/slideshow-mobile-small/url-address.jpg"></img>
-    <img src="https://images.easytechjunkie.com/slideshow-mobile-small/url-address.jpg"></img>
+    <img alt="random" src={img + "?grayscale"} />
+    <img src="https://picsum.photos/200"></img>
   </div>,
   document.getElementById("demo4")
 );
